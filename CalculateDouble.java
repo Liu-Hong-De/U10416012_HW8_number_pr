@@ -7,8 +7,8 @@ public class CalculateDouble {
 	int scale = 20;
 	
 	//create two BigDecimal to store the input number
-	BigDecimal number1;
-	BigDecimal number2;
+	BigDecimal num1;
+	BigDecimal num2;
 
 	public CalculateDouble() {
 	}
