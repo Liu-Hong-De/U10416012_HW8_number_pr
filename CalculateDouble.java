@@ -19,9 +19,9 @@ public class CalculateDouble {
 	}
 
 	//create a constructor with String parameters
-	public CalculateDouble(String number1, String number2) {
-		setNumber1(number1);
-		setNumber2(number2);
+	public CalculateDouble(String num1, String num2) {
+		setNum1(num1);
+		setNum2(num2);
 	}
 	
 	//set num1
