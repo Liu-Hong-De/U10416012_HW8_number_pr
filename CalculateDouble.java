@@ -47,4 +47,24 @@ public class CalculateDouble {
 	public void setScale(int scale) {
 		this.scale = scale;
 	}
+	
+	//add number
+	public String add() {
+		return String.valueOf(num1.add(num2));
+	}
+
+	//subtract number
+	public String subtract() {
+		return String.valueOf(num1.subtract(num2));
+	}
+
+	//multiply number
+	public String muliply() {
+		return String.valueOf(num1.multiply(num2));
+	}
+
+	//divide number
+	public String divide() {
+		return String.valueOf(num1.divide(num2, scale, BigDecimal.ROUND_HALF_UP));
+	}
 }
